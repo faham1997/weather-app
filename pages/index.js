@@ -1,3 +1,4 @@
+import Meme from "../components/Meme";
 import Weather from "../components/Weather";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         Next Weather
       </div>
       <Weather />
+      <Meme />
     </div>
   );
 }
