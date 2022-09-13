@@ -1,3 +1,12 @@
+import Weather from "../components/Weather";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="w-screen h-screen bg-[url('/background.jpg')] bg-cover bg-no-repeat">
+      <div className=" flex sm:justify-center font-bold text-5xl p-5 text-white">
+        Next Weather
+      </div>
+      <Weather />
+    </div>
+  );
 }
